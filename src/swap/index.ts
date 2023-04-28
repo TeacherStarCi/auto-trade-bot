@@ -25,7 +25,13 @@ export const depositForWBNB = async (amount: number) => {
   // console.log('Transaction receipt')
   //console.log(receipt)
 }
-
+/**
+ * A function is to swap WBNB for Token
+ * @param tokenAddress string
+ * @param amount number
+ * @param recipientAddress string
+ * @returns Promise\<void\>
+ */
 export const swapWBNBForToken = async (tokenAddress: string, amount: number, recipientAddress: string) => {
   // define the tokenIn is WBNB , the tokenOut is the parameter token
   const tokenIn = wbnb

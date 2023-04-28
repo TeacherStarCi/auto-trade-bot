@@ -2,6 +2,7 @@ import { ethers } from 'ethers'
 import { account } from '../bsc-testnet'
 export const wbnb = '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd'
 
+// The WBNB contract for later quering
 export const wbnbContract = new ethers.Contract(
     wbnb,
     [
